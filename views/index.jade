@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Simple SOCC API Server
+  p get / : this page
+  p post /login : login page (id, password)
+  p post /signup: signup page (id, password, name)
+  p get /whoami: check whether login
+  p post /moim: create moim(date, description) // date : (yyyy-mm-dd)
+  p get /moim/:no : get moim info
+
